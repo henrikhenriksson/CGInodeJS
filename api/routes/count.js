@@ -20,6 +20,11 @@ router.post('/', async (req, res) => {
   const countedMap = countWords(cleanedContent);
   const sortedMap = mapSort(countedMap);
 
+  // for(let i = 0; i < 10; i++) {
+  //     const slicedMap = new Map();
+
+  // }
+
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries//
   // Convert map to JavaScript object.
   const jsonResult = Object.fromEntries(sortedMap);
