@@ -1,0 +1,32 @@
+{
+  "name": "wordcount",
+  "version": "1.0.0",
+  "description": "A rest API used to recieve blocks of text in order to count occurences of a word within that block of text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henrikhenriksson/cgiWcNode.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "wordcount"
+  ],
+  "author": "Henrik Henriksson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikhenriksson/cgiWcNode/issues"
+  },
+  "homepage": "https://github.com/henrikhenriksson/cgiWcNode#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
